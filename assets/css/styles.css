@@ -111,7 +111,7 @@ pre code {
   color: #BA1119;
 }
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
-  color: #666666;
+  color: #000000;
 }
 .header .logo {
   margin: 0;
@@ -151,11 +151,11 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #BA1119;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #0a7396;
+  color: #000000;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -183,7 +183,7 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: #17baef;
+  background: #BA1119;
   color: #fff;
   padding-top: 150px;
 }
@@ -215,25 +215,14 @@ pre code {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: #0a7396;
+  color: #000000;
 }
 .promo .meta a:hover {
   color: #074f66;
 }
-.promo .social-media {
-  background: #0c86ae;
-  padding: 10px 0;
-  margin: 0 auto;
-}
-.promo .social-media li {
-  margin-top: 15px;
-}
-.promo .social-media li.facebook-like {
-  margin-top: 0;
-  position: relative;
-  top: -5px;
-}
-/* ======= About Section ======= */
+
+/* ======= ABOUT SECTION ======= */
+
 .about {
   padding: 80px 0;
   background: #f5f5f5;
@@ -272,11 +261,11 @@ pre code {
 /* ======= Courses Section ======= */
 .courses {
   padding: 80px 0;
-  background: #17baef;
+  background: #BA1119;
   color: #fff;
 }
 .courses .title {
-  color: #074f66;
+  color: #464646;
   margin-top: 0;
   margin-bottom: 30px;
 }
