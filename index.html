@@ -14,7 +14,8 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css"> -->
     <link rel="stylesheet" href="assets/plugins/prism/prism.css">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -70,7 +71,8 @@
     <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header">
         <div class="container text-center">
-            <h2 class="title">warwick<span class="highlight">Coding</span></h2>
+          <img class="img-responsive" src="assets/images/wc_logo_banner.png">
+            <!-- <h2 class="title">warwick<span class="highlight">Coding</span></h2> -->
             <p class="intro">Intro</p>
             <div class="btns">
                 <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/" target="_blank">Demo</a>
@@ -149,41 +151,39 @@
 
     <!-- ******COURSES****** -->
     <section id="courses" class="courses section">
+      <h1 class="title">Term 2 Courses</h1>
       <div class="row">
-        <div class="container text-center col-md-4 col-sm-6 col-xs-12">
+        <div id="frontend-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
             <h2 class="title">HTML & CSS</h2>
+            <h2 class="title"><i class="fa fa-html5"></i>  <i class="fa fa-css3"></i></h2>
             <ul class="feature-list list-unstyled">
-                <li><i class="fa fa-check"></i> Fully responsive</li>
-                <li><i class="fa fa-check"></i> HTML5 + CSS3</li>
-                <li><i class="fa fa-check"></i> Built on <a href="http://getbootstrap.com/" target="_blank">Bootstrap 3.3</a></li>
-                <li><i class="fa fa-check"></i> 400+ FontAwesome icons</li>
-                <li><i class="fa fa-check"></i> 4 colour schemes</li>
-                <li><i class="fa fa-check"></i> LESS files included</li>
-                <li><i class="fa fa-check"></i> Compatible with all modern browsers</li>
+                <li>Level: <strong>Beginners</strong></li>
+                <li>Price: <strong>£50</strong></li>
+                <li>8 X 2 hour session</li>
+                <li>Great introduction to coding for the web</li>
+                <li>How to build a landing page</li>
+                <li class="read-more">Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction" target="_blank" >HTML</a> & <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/What_is_CSS" target="_blank">CSS3</a></li>
             </ul>
         </div>
-        <div class="container text-center col-md-4 col-sm-6 col-xs-12">
+        <div id="android-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
             <h2 class="title">Android</h2>
+            <h2 class="title"><i class="fa fa-android"></i></h2>
             <ul class="feature-list list-unstyled">
-                <li><i class="fa fa-check"></i> Fully responsive</li>
-                <li><i class="fa fa-check"></i> HTML5 + CSS3</li>
-                <li><i class="fa fa-check"></i> Built on <a href="http://getbootstrap.com/" target="_blank">Bootstrap 3.3</a></li>
-                <li><i class="fa fa-check"></i> 400+ FontAwesome icons</li>
-                <li><i class="fa fa-check"></i> 4 colour schemes</li>
-                <li><i class="fa fa-check"></i> LESS files included</li>
-                <li><i class="fa fa-check"></i> Compatible with all modern browsers</li>
+                <li>Level: <strong>Beginner/Intermediate</strong></li>
+                <li>Price: <strong>£60</strong></li>
+                <li>8 X 2 hour sessions</li>
             </ul>
         </div>
-        <div class="container text-center col-md-4 col-sm-6 col-xs-12">
+        <div id="ruby-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
             <h2 class="title">Ruby</h2>
+            <h2 class="title"><i class="fa fa-diamond"></i></h2>
             <ul class="feature-list list-unstyled">
-                <li><i class="fa fa-check"></i> Fully responsive</li>
-                <li><i class="fa fa-check"></i> HTML5 + CSS3</li>
-                <li><i class="fa fa-check"></i> Built on <a href="http://getbootstrap.com/" target="_blank">Bootstrap 3.3</a></li>
-                <li><i class="fa fa-check"></i> 400+ FontAwesome icons</li>
-                <li><i class="fa fa-check"></i> 4 colour schemes</li>
-                <li><i class="fa fa-check"></i> LESS files included</li>
-                <li><i class="fa fa-check"></i> Compatible with all modern browsers</li>
+                <li>Level: <strong>Beginner/Intermediate</strong></li>
+                <li>Price: <strong>£60</strong></li>
+                <li>8 X 2 hour sessions</li>
+                <li>Object Oriented Language</li>
+                <li>Great intro to Ruby on Rails</li>
+                <li class="read-more">Try Ruby in your <a href="http://tryruby.org/levels/1/challenges/0" target="_blank">browser</a></li>
             </ul>
         </div>
       </div>
@@ -192,143 +192,92 @@
     <!-- ******TEAM****** -->
     <section id="team" class="team section">
         <div class="container">
-            <div class="team-inner">
-            <h2 class="title text-center">Get Started</h2>
-            <div class="block">
-                <h3 class="sub-title text-center">HTML</h3>
-                <p><a href="http://prismjs.com/" target="_blank">PrismJS</a> is used as the syntax highlighter here.</p>
-                <p>Below are the details of the custom PrismJS build used in this template. You can <a href="http://prismjs.com/download.html" target="_blank">build your own version</a> via their website should you need to.</p>
-                <ul class="list-unstyled">
-                    <li><strong>Compression level:</strong> Minified</li>
-                    <li><strong>Theme:</strong> Okaidia</li>
-                    <li><strong>Languages:</strong> Markup, CSS, C-like, JavaScript, PHP and Python</li>
-                </ul>
-                <div class="code-block">
-                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
-                    <pre><code class="language-markup">
-    &ltp class="my-style"&gt
-      Hello World!
-    &lt/p&gt
-                     </code></pre>
-                </div><!--//code-block-->
-            </div><!--//block-->
-
-            <div class="block">
-                <h3 class="sub-title text-center">CSS</h3>
-                <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
-
-                <div class="code-block">
-                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
-                    <pre>
-    <code class="language-css">
-    /*
-     * Template Name: devAid - Responsive Website Template for developers
-     * Version: 1.0
-     * Author: Xiaoying Riley at 3rd Wave Media
-     * Website: http://themes.3rdwavemedia.com/
-     * Twitter: @3rdwave_themes
-    */
-    body {
-      font-family: 'Lato', arial, sans-serif;
-      color: #444444;
-      font-size: 16px;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    </code></pre>
-                </div><!--//code-block-->
-            </div><!--//block-->
-
-            <div class="block">
-                <h3 class="sub-title text-center">JavaScript</h3>
-                <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit ligula eget dolor.</p>
-                <div class="code-block">
-                    <pre><code class="language-javascript">
-    if( awesome ){
-        console.log('This is Awesome');
-    }else{
-        $('body').addClass('give-me-awesome');
-    }
-                    </code></pre>
-                </div><!--//code-block-->
-            </div><!--//block-->
-            <div class="block">
-                <h3 class="sub-title text-center">Full Documentation</h3>
-                <p>If your documentation is very long you can host the full team page (including FAQ etc) on GitHub and provide a Call to Action button below to direct users there.</p>
-                <p class="text-center">
-                    <a class="btn btn-cta-primary" href="https://github.com/twbs/bootstrap" target="_blank">More on GitHub</a>
-                </p>
-            </div><!--//block-->
-
-          </div><!--//team-inner-->
+          <h2 class="title text-center">The Team</h2>
+          <div class="author-message-left">
+              <div class="profile">
+                  <img class="img-responsive" src="assets/images/profile.png" alt="" />
+              </div><!--//profile-->
+              <div class="speech-bubble">
+                  <h3 class="sub-title">Raphael Weninger</h3>
+                  <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
+                  <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
+                  <p><strong>[Tip for developers]:</strong> If you take on freelance work you can put a tailored message here about your availability to attract potential clients. Be creative and good luck!</p>
+                  <div class="source">
+                      <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
+                      <br />
+                      <span class="title">UX/UI Designer</span>
+                  </div><!--//source-->
+              </div><!--//speech-bubble-->
+          </div><!--//author-message-->
+          <div class="author-message-right">
+              <div class="profile">
+                  <img class="img-responsive" src="assets/images/profile.png" alt="" />
+              </div><!--//profile-->
+              <div class="speech-bubble">
+                  <h3 class="sub-title">Zaid Al Lahham</h3>
+                  <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
+                  <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
+                  <p><strong>[Tip for developers]:</strong> If you take on freelance work you can put a tailored message here about your availability to attract potential clients. Be creative and good luck!</p>
+                  <div class="source">
+                      <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
+                      <br />
+                      <span class="title">UX/UI Designer</span>
+                  </div><!--//source-->
+              </div><!--//speech-bubble-->
+          </div><!--//author-message-->
+          <div class="author-message-left">
+              <div class="profile">
+                  <img class="img-responsive" src="assets/images/profile.png" alt="" />
+              </div><!--//profile-->
+              <div class="speech-bubble">
+                  <h3 class="sub-title">Fadi Hakim</h3>
+                  <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
+                  <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
+                  <p><strong>[Tip for developers]:</strong> If you take on freelance work you can put a tailored message here about your availability to attract potential clients. Be creative and good luck!</p>
+                  <div class="source">
+                      <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
+                      <br />
+                      <span class="title">UX/UI Designer</span>
+                  </div><!--//source-->
+              </div><!--//speech-bubble-->
+          </div><!--//author-message-->
+          <div class="author-message-right">
+              <div class="profile">
+                  <img class="img-responsive" src="assets/images/profile.png" alt="" />
+              </div><!--//profile-->
+              <div class="speech-bubble">
+                  <h3 class="sub-title">Wesley Haigh</h3>
+                  <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
+                  <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
+                  <p><strong>[Tip for developers]:</strong> If you take on freelance work you can put a tailored message here about your availability to attract potential clients. Be creative and good luck!</p>
+                  <div class="source">
+                      <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
+                      <br />
+                      <span class="title">UX/UI Designer</span>
+                  </div><!--//source-->
+              </div><!--//speech-bubble-->
+          </div><!--//author-message-->
         </div><!--//container-->
     </section><!--//courses-->
 
-    <!-- ******LICENSE****** -->
-    <section id="license" class="license section">
-        <div class="container">
-            <div class="license-inner">
-            <h2 class="title text-center">License</h2>
-                <div class="info">
-                    <p>This Bootstrap theme is made by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at 3rd Wave Media for developers and is <strong>100% FREE</strong> under the <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License (CC BY 3.0)</a></p>
-                    <p><strong>[Tip for developers]:</strong> If your project is open source, you might want to put a <a href="https://www.paypal.com/us/cgi-bin/?cmd=_donate-intro-outside" target="_blank">PayPal "Donate" button</a> below so your users can express their gratitude. If your project is commercial, you can put a <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_singleitem-intro-outside" target="_blank">PayPal "Buy Now" button</a> instead.</p>
-                </div><!--//info-->
-                <div class="cta-container">
-                    <div class="speech-bubble">
-                        <p class="intro">If you are feeling generous and want to show your support to Xiaoying, you can buy her a beer or coffee via the PayPal donate button below. :)</p>
-                        <div class="icon-holder  text-center"><i class="fa fa-smile-o"></i></div>
-                    </div><!--//speech-bubble-->
-                    <div class="btn-container  text-center">
-                        <!--//You need to generate your own PayPal button - https://www.paypal.com/us/cgi-bin/?cmd=_donate-intro-outside -->
-                        <!--PayPal generated code starts-->
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="Y46LJNXGAVVWW">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                        <!--//PayPal generated code ends-->
-
-                    </div><!--//btn-container-->
-                </div><!--//cta-container-->
-            </div><!--//license-inner-->
-        </div><!--//container-->
-    </section><!--//how -->
-
     <!-- ******CONTACT****** -->
     <section id="contact" class="contact section has-pattern">
-        <div class="container">
-            <div class="contact-inner">
-                <h2 class="title  text-center">Contact</h2>
-                <p class="intro  text-center">I hope you find this Bootstrap template useful. <br />Feel free to get in touch if you have any questions or suggestions.</p>
-                <div class="author-message">
-                    <div class="profile">
-                        <img class="img-responsive" src="assets/images/profile.png" alt="" />
-                    </div><!--//profile-->
-                    <div class="speech-bubble">
-                        <h3 class="sub-title">Want to get more freebies in the future?</h3>
-                        <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
-                        <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
-                        <p><strong>[Tip for developers]:</strong> If you take on freelance work you can put a tailored message here about your availability to attract potential clients. Be creative and good luck!</p>
-                        <div class="source">
-                            <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
-                            <br />
-                            <span class="title">UX/UI Designer</span>
-                        </div><!--//source-->
-                    </div><!--//speech-bubble-->
-                </div><!--//author-message-->
-                <div class="clearfix"></div>
-                <div class="info text-center">
-                    <h4 class="sub-title">Get Connected</h4>
-                    <ul class="social-icons list-inline">
-                        <li><a href="https://github.com/warwickcoding" target="_blank"><i class="fa fa-github"></i></a></li>
-                        <li><a href="https://www.facebook.com/warwickcoding" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li class="last"><a href="mailto: raphael@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                </div><!--//info-->
-            </div><!--//contact-inner-->
-        </div><!--//container-->
-    </section><!--//contact-->
+    <div class="container">
+        <div class="contact-inner">
+            <h2 class="title  text-center">Contact</h2>
+            <div class="clearfix"></div>
+            <div class="info text-center">
+                <h4 class="sub-title">Get Connected</h4>
+                <ul class="social-icons list-inline">
+                    <li><a href="https://github.com/warwickcoding" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.facebook.com/warwickcoding" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="last"><a href="mailto: raphael@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div><!--//info-->
+        </div><!--//contact-inner-->
+    </div><!--//container-->
+</section><!--//contact-->
+
 
     <!-- ******FOOTER****** -->
     <footer class="footer">
