@@ -377,7 +377,7 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #10b2e7;
+  border-left: 10px solid #BA1119;
 }
 .team .author-message-right .speech-bubble .source {
   margin-top: 30px;
@@ -412,7 +412,7 @@ pre code {
 }
 .team .author-message-left .speech-bubble {
   margin-left: 155px;
-  background: #10b2e7;
+  background: #042a36;
   color: #074f66;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -444,7 +444,7 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #10b2e7;
+  border-right: 10px solid #042a36;
 }
 .team .author-message-left .speech-bubble .source {
   margin-top: 30px;
