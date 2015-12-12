@@ -71,16 +71,16 @@ a.btn-cta-primary:hover,
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: #eebf3f;
-  border: 1px solid #eebf3f;
+  background: #BA1119;
+  border: 1px solid #BA1119;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #ecb728;
-  border: 1px solid #ecb728;
+  background: #980f16;
+  border: 1px solid #980f16;
   color: #fff;
 }
 .text-highlight {
@@ -97,7 +97,7 @@ pre code {
 
 .header {
   padding: 10px 0;
-  background: #BA1119;
+  background: transparent;
   color: #BA1119;
   position: fixed;
   width: 100%;
@@ -121,14 +121,14 @@ pre code {
   padding-top: 10px;
 }
 .header .logo a {
-  color: #fff;
+  color: #e6141d;
 }
 .header .logo a:hover {
   text-decoration: none;
 }
 .header .main-nav button {
   background: #fff;
-  color: #fff !important;
+  color: #BA1119 !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -142,7 +142,7 @@ pre code {
   outline: none;
 }
 .header .main-nav button .icon-bar {
-  background-color: #fff;
+  background-color: #BA1119;
 }
 .header .main-nav .navbar-collapse {
   padding: 0;
@@ -157,7 +157,7 @@ pre code {
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #000000;
+  color: #e6141d;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -186,23 +186,26 @@ pre code {
 /* ======= Promo Section ======= */
 
 .promo {
-  background-color: transparent;
-  /*color: #BA1119;*/
-  padding-top: 150px;
+  background: url(../images/bg-image-latest.png) transparent;
+  background-size: cover;
+  padding-top: 110px;
+  height: 33em;
 }
 .promo .title {
-  font-size: 98px;
-  color: #9E9E9E;
-  margin-top: 0;
+  font-size: 3em;
+  color: #fff;
+  margin-top: 100px;
+  word-wrap: normal;
 }
 .promo .title .highlight {
-  color: #464646;
+  color: #fff;
 }
 .promo .intro {
-  font-size: 28px;
-  max-width: 680px;
+  font-size: 24px;
+  /*max-width: 680px;*/
   margin: 0 auto;
   margin-bottom: 30px;
+  color: #fff;
 }
 .promo .btns .btn {
   margin-right: 15px;
@@ -218,12 +221,15 @@ pre code {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: #000000;
+  color: #fff;
 }
 .promo .meta a:hover {
-  color: #074f66;
+  color: #BA1119;
 }
-
+.promo img {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
 
 /* ======= ABOUT SECTION ======= */
 
@@ -262,7 +268,9 @@ pre code {
   color: #074f66;
   font-size: 18px;
 }
+
 /* ======= Courses Section ======= */
+
 .courses {
   /*padding: 80px 0;*/
   background: #BA1119;
@@ -270,9 +278,11 @@ pre code {
 }
 .courses #android-course {
   margin: 50px 0;
+  position: relative;
 }
 .courses #frontend-course {
-  margin: 50px 0;
+  /*margin: 50px 0;*/
+  position: relative;
 }
 .courses #ruby-course {
   margin: 50px 0;
@@ -306,10 +316,13 @@ pre code {
   width: 100%;
   margin: 0;
 }
-
 .courses .read-more {
   margin-top: 25px;
   color: #fff !important;
+}
+.courses #frontend-course .btn {
+  position: absolute;
+  top: auto;
 }
 
 /* ======= Team Section ======= */
@@ -325,29 +338,12 @@ pre code {
 .team .author-message-right  {
   position: relative;
   margin-bottom: 60px;
-}
-.team .author-message-right .profile {
-  position: absolute;
-  right: 30px;
-  top: 15px;
-  width: 100px;
-  height: 100px;
-}
-.team .author-message-right .profile img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  text-align: center;
 }
 .team .author-message-right .speech-bubble {
-  margin-right: 155px;
   background: #BA1119;
-  color: #074f66;
-  padding: 30px;
+  color: #fff;
+  padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -358,63 +354,42 @@ pre code {
   background-clip: padding-box;
   position: relative;
 }
-.team .author-message-right .speech-bubble .sub-title {
-  color: #074f66;
+.team .author-message-right .speech-bubble .title {
+  color: #fff;
   font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.team .author-message-right .speech-bubble .sub-title {
+  color: #ff414a;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 .team .author-message-right .speech-bubble a {
-  color: #fff;
+  color: #042a36;
 }
-.team .author-message-right .speech-bubble:after {
-  position: absolute;
-  right: -10px;
-  top: 60px;
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #BA1119;
+.team .author-message-right .speech-bubble img {
+  margin: auto auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
-.team .author-message-right .speech-bubble .source {
-  margin-top: 30px;
-}
-.team .author-message-right .speech-bubble .source a {
-  color: #074f66;
-}
-.team .author-message-right .speech-bubble .source .title {
-  color: #0c86ae;
-}
+
 /* ======= Second message ========== */
 .team .author-message-left  {
   position: relative;
   margin-bottom: 60px;
-}
-.team .author-message-left .profile {
-  position: absolute;
-  left: 30px;
-  top: 15px;
-  width: 100px;
-  height: 100px;
-}
-.team .author-message-left .profile img {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  text-align: center;
 }
 .team .author-message-left .speech-bubble {
-  margin-left: 155px;
   background: #042a36;
-  color: #074f66;
-  padding: 30px;
+  color: #fff;
+  padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -425,35 +400,30 @@ pre code {
   background-clip: padding-box;
   position: relative;
 }
-.team .author-message-left .speech-bubble .sub-title {
-  color: #074f66;
+.team .author-message-left .speech-bubble .title {
+  color: #fff;
   font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.team .author-message-left .speech-bubble .sub-title {
+  color: #0c86ae;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 .team .author-message-left .speech-bubble a {
-  color: #fff;
+  color: #BA1119;
 }
-.team .author-message-left .speech-bubble:after {
-  position: absolute;
-  left: -10px;
-  top: 60px;
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #042a36;
-}
-.team .author-message-left .speech-bubble .source {
-  margin-top: 30px;
-}
-.team .author-message-left .speech-bubble .source a {
-  color: #074f66;
-}
-.team .author-message-left .speech-bubble .source .title {
-  color: #0c86ae;
+.team .author-message-left .speech-bubble img {
+  margin: auto auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 
 /* ======= Contact Section ======= */
@@ -467,7 +437,7 @@ pre code {
   margin: 0 auto;
 }
 .contact .title {
-  color: #074f66;
+  color: #fff;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -481,7 +451,7 @@ pre code {
   color: #042a36;
 }
 .contact .info .sub-title {
-  color: #0e98c5;
+  color: #042a36;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -500,7 +470,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: #0c86ae;
+  background: #042a36;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -543,6 +513,7 @@ pre code {
 .footer .fa-heart {
   color: #fb866a;
 }
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .main-nav button {
