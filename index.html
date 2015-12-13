@@ -1,302 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>warwickCoding</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css"> -->
-    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <title>warwickCoding</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="warwickCoding">
+  <meta name="author" content="Zaid Al Lahham">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body data-spy="scroll">
 
-    <!---//Facebook button code-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- ******HEADER****** -->
 
-    <!-- ******HEADER****** -->
-    <header id="header" class="header">
-        <div class="container">
-            <h1 class="logo pull-left">
-                <a class="scrollto" href="#promo">
-                    <span class="logo-title">warwickCoding</span>
-                </a>
-            </h1><!--//logo-->
-            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#courses">Courses</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#team">Team</a></li>
-                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->
+  <header id="header" class="header">
+    <div class="container">
+      <h1 class="logo pull-left">
+        <a class="scrollto" href="#promo">
+          <span class="logo-title">warwickCoding</span>
+        </a>
+      </h1>
+      <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-    </header><!--//header-->
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+            <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+            <li class="nav-item"><a class="scrollto" href="#courses">Courses</a></li>
+            <li class="nav-item"><a class="scrollto" href="#team">Team</a></li>
+            <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-    <!-- ******PROMO****** -->
-    <section id="promo" class="promo section offset-header">
-        <div class="container text-center">
-          <img class="img-responsive" src="assets/images/welcomeToWC.png">
-            <!-- <h2 class="title">Welcome to warwickCoding</h2> -->
-            <!-- <p class="intro">Learn to code at Warwick.</p> -->
-            <div class="btns">
-                <a class="btn btn-cta-secondary scrollto" href="#courses">Register!</a>
-                <a class="btn btn-cta-primary scrollto" href="#about">Learn More</a>
-            </div>
-            <!-- <ul class="meta list-inline">
-                <li><a href="https://github.com/warwickcoding/" target="_blank">Find us on GitHub</a></li>
-            </ul><!--//meta-->
-        </div><!--//container-->
-    </section><!--//promo-->
+  <!-- ******PROMO****** -->
+  <section id="promo" class="promo section offset-header">
+    <div class="container text-center">
+      <img class="img-responsive" src="assets/images/welcomeToWC.png">
+      <!-- <h2 class="title">Welcome to warwickCoding</h2> -->
+      <!-- <p class="intro">Learn to code at Warwick.</p> -->
+      <div class="btns">
+        <a class="btn btn-cta-secondary scrollto" href="#courses">Register!</a>
+        <a class="btn btn-cta-primary scrollto" href="#about">Learn More</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- ******ABOUT****** -->
-    <section id="about" class="about section">
-        <div class="container">
-            <h2 class="title text-center">What is warwickCoding?</h2>
-            <p class="intro text-center">an interesting and affordable access to the world of coding, we present to you a chance to learn a skill set unique to only a few.</p>
-            <div class="row">
-                <div class="item col-md-4 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="fa fa-heart"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">Founded in 2014</h3>
-                        <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="fa fa-clock-o"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">127 Student reached</h3>
-                        <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="fa fa-crosshairs"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">Course Diversity</h3>
-                        <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="clearfix visible-md"></div>
-                <div class="item col-md-4 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="fa fa-tablet"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">Gender Ratio</h3>
-                        <p>We are one of the few coding courses had more than 50% female students.</p>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="fa fa-code"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">Growing Number of Courses</h3>
-                        <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
-                    </div><!--//content-->
-                </div><!--//item-->
-                <div class="item col-md-4 col-sm-6 col-xs-12">
-                    <div class="icon-holder">
-                        <i class="fa fa-coffee"></i>
-                    </div>
-                    <div class="content">
-                        <h3 class="sub-title">Affordable Courses</h3>
-                        <p>We want all of the courses to be affordable to every student. With that in mind, we never price any of our courses over £70</p>
-                    </div><!--//content-->
-                </div><!--//item-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//about-->
-
-    <!-- ******COURSES****** -->
-    <section id="courses" class="courses section">
-      <h1 class="title">Term 2 Courses</h1>
+  <!-- ******ABOUT****** -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="title text-center">What is warwickCoding?</h2>
+      <p class="intro text-center">an interesting and affordable access to the world of coding, we present to you a chance to learn a skill set unique to only a few.</p>
       <div class="row">
-        <div id="frontend-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
-            <h2 class="title">HTML & CSS</h2>
-            <h2 class="title"><i class="fa fa-html5"></i>  <i class="fa fa-css3"></i></h2>
-            <ul class="feature-list list-unstyled">
-                <li>Level: <strong>Beginners</strong></li>
-                <li>Price: <strong>£50</strong></li>
-                <li>8 X 2 hour session</li>
-                <li>Great introduction to coding for the web</li>
-                <li>How to build a landing page</li>
-                <li class="read-more">Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction" target="_blank" >HTML</a> & <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/What_is_CSS" target="_blank">CSS3</a></li>
-            </ul>
-            <a class="btn btn-cta-primary" href="#" target="_blank">Sign Up</a>
-        </div>
-        <div id="android-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
-            <h2 class="title">Android</h2>
-            <h2 class="title"><i class="fa fa-android"></i></h2>
-            <ul class="feature-list list-unstyled">
-                <li>Level: <strong>Beginner/Intermediate</strong></li>
-                <li>Price: <strong>£60</strong></li>
-                <li>8 X 2 hour sessions</li>
-                <a class="btn btn-cta-primary" href="#" target="_blank">Sign Up</a>
-
-            </ul>
-        </div>
-        <div id="ruby-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
-            <h2 class="title">Ruby</h2>
-            <h2 class="title"><i class="fa fa-diamond"></i></h2>
-            <ul class="feature-list list-unstyled">
-                <li>Level: <strong>Beginner/Intermediate</strong></li>
-                <li>Price: <strong>£60</strong></li>
-                <li>8 X 2 hour sessions</li>
-                <li>Object Oriented Language</li>
-                <li>Great intro to Ruby on Rails</li>
-                <li class="read-more">Try Ruby in your <a href="http://tryruby.org/levels/1/challenges/0" target="_blank">browser</a></li>
-                <a class="btn btn-cta-primary" href="#" target="_blank">Sign Up</a>
-            </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- ******TEAM****** -->
-    <section id="team" class="team section">
-      <div class="container">
-        <h2 class="title text-center">The Team</h2>
-        <div class="row">
-          <div class="author-message-left col-lg-3">
-              <div class="speech-bubble">
-                <img class="img-responsive" src="assets/images/raph.png" alt="" />
-                <h3 class="title">Raphael Weninger</h3>
-                <h4 class="sub-title">Founder</h4>
-                <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
-                <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
-                <ul class="social-icons list-inline">
-                  <li><a href="https://www.linkedin.com/in/raphaelweninger" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                  <li class="last"><a href="mailto: raphael@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-              </div>
+        <div class="item col-md-4 col-sm-6 col-xs-12">
+          <div class="icon-holder">
+            <i class="fa fa-heart"></i>
           </div>
-
-          <div class="author-message-right col-lg-3">
-              <div class="speech-bubble">
-                <img class="img-responsive" src="assets/images/zaid.png" alt="" />
-                <h3 class="title">Zaid Al Lahham</h3>
-                <h4 class="sub-title">HTML & CSS Course | Ruby Course</h4>
-                <p>I Graduated in 2015 with an BSc in Engineering & Business Studies</p>
-                <p>I got my real taste of software deveopment at <a href="http://www.makersacademy.com/" target="_blank">Makers Academy</a>
-                <ul class="social-icons list-inline">
-                  <li><a href="https://github.com/zlahham" target="_blank"><i class="fa fa-github"></i></a></li>
-                  <li><a href="https://www.twitter.com/zaidlahham" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/zaidlahham" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                  <li class="last"><a href="mailto: zaid@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-              </div>
+          <div class="content">
+            <h3 class="sub-title">Founded in 2014</h3>
+            <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
           </div>
-
-          <div class="author-message-left col-lg-3">
-              <div class="speech-bubble">
-                <img class="img-responsive" src="assets/images/profile.png" alt="" />
-                  <h3 class="title">Fadi Hakim</h3>
-                  <h4 class="sub-title">Marketing</h4>
-                  <p>I tweet about #UX and #webdev related resources/content at <a href="https://twitter.com/3rdwave_themes" target="_blank">@3rdwave_themes</a>
-                  <p>If you like what I do, you can follow me on twitter and I will keep you informed about my next free template there :)</p>
-                  <ul class="social-icons list-inline">
-                    <li><a href="https://github.com/fadi-hakim" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.twitter.com/fadihakim93" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <!-- <li><a href="https://www.linkedin.com/in/zaidlahham" target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
-                    <li class="last"><a href="mailto: fadi@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
-                  </ul>
-              </div>
+        </div>
+        <div class="item col-md-4 col-sm-6 col-xs-12">
+          <div class="icon-holder">
+            <i class="fa fa-clock-o"></i>
           </div>
-
-          <div class="author-message-right col-lg-3">
-              <div class="speech-bubble">
-                <img class="img-responsive" src="assets/images/wesley.png" alt="" />
-                  <h3 class="title">Wesley Haigh</h3>
-                  <h4 class="sub-title">Android Course</h4>
-                  <p>I am a 3rd year Physicist</p>
-                  <p>Before university I worked for the software company ThankQ in Australia. This was where I was given my first real taste of programming. After this I began teaching myself Android development and last summer I released the geography based game <a href="https://play.google.com/store/apps/details?id=com.jamobiles.globetrotter" target="_blank">Globetrotter.</a>
-                  <ul class="social-icons list-inline">
-                    <li><a href="https://github.com/WesleyHaigh" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <!-- <li><a href="https://www.twitter.com/zaidlahham" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
-                    <li><a href="https://www.linkedin.com/in/wesley-haigh-20a10595" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="last"><a href="mailto: wesley@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
-                  </ul>
-              </div>
+          <div class="content">
+            <h3 class="sub-title">127 Student reached</h3>
+            <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
+          </div>
+        </div>
+        <div class="item col-md-4 col-sm-6 col-xs-12">
+          <div class="icon-holder">
+            <i class="fa fa-crosshairs"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Course Diversity</h3>
+            <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
+          </div>
+        </div>
+        <!-- <div class="clearfix visible-md"></div> -->
+        <div class="item col-md-4 col-sm-6 col-xs-12">
+          <div class="icon-holder">
+            <i class="fa fa-tablet"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Gender Ratio</h3>
+            <p>We are one of the few coding courses had more than 50% female students.</p>
+          </div>
+        </div>
+        <div class="item col-md-4 col-sm-6 col-xs-12">
+          <div class="icon-holder">
+            <i class="fa fa-code"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Growing Number of Courses</h3>
+            <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 400+ </p>
+          </div>
+        </div>
+        <div class="item col-md-4 col-sm-6 col-xs-12">
+          <div class="icon-holder">
+            <i class="fa fa-coffee"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Affordable Courses</h3>
+            <p>We want all of the courses to be affordable to every student. With that in mind, we never price any of our courses over £70</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ******CONTACT****** -->
-    <section id="contact" class="contact section has-pattern">
-      <div class="container">
-        <div class="contact-inner">
-          <h2 class="title  text-center">Contact</h2>
-          <div class="clearfix"></div>
-            <div class="info text-center">
-              <h4 class="sub-title">Get Connected</h4>
+  <!-- ******COURSES****** -->
+  <section id="courses" class="courses section">
+    <h1 class="title">Term 2 Courses</h1>
+    <div class="row">
+
+      <div id="frontend-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
+        <h2 class="title">HTML & CSS</h2>
+        <h2 class="title"><i class="fa fa-html5"></i> <i class="fa fa-css3"></i></h2>
+        <ul class="feature-list list-unstyled">
+          <li>Level:
+            <strong>Beginners</strong>
+          </li>
+          <li>Price:
+            <strong>£50</strong>
+          </li>
+          <li>8 X 2 hour session</li>
+          <li>Great introduction to coding for the web</li>
+          <li>How to build a landing page</li>
+          <li class="read-more">Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction" target="_blank">HTML</a> & <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/What_is_CSS" target="_blank">CSS3</a></li>
+        </ul>
+        <a class="btn btn-cta-primary" href="#" target="_blank">Sign Up</a>
+      </div>
+
+      <div id="android-course" class="container text-center col-md-4 col-sm-6 col-xs-12">
+        <h2 class="title">Android</h2>
+        <h2 class="title"><i class="fa fa-android"></i></h2>
+        <ul class="feature-list list-unstyled">
+          <li>Level:
+            <strong>Intermediate</strong>
+          </li>
+          <li>Price:
+            <strong>£60</strong>
+          </li>
+          <li>8 X 2 hour sessions</li>
+          <li>Teaching real project management and developer skills</li>
+          <li>Building an app from the first session</li>
+          <li class="read-more">Read more about <a href="https://developer.android.com/index.html" target="_blank">Android</a></li>
+        </ul>
+        <a class="btn btn-cta-primary" href="#" target="_blank">Sign Up</a>
+      </div>
+
+      <div id="ruby-course" class="container text-center col-md-4 col-sm-12 col-xs-12">
+        <h2 class="title">Ruby</h2>
+        <h2 class="title"><i class="fa fa-diamond"></i></h2>
+        <ul class="feature-list list-unstyled">
+          <li>Level:
+            <strong>Beginner/Intermediate</strong>
+          </li>
+          <li>Price:
+            <strong>£60</strong>
+          </li>
+          <li>8 X 2 hour sessions</li>
+          <li>Object Oriented Language</li>
+          <li>Great intro to Ruby on Rails</li>
+          <li class="read-more">Try Ruby in your <a href="http://tryruby.org/levels/1/challenges/0" target="_blank">browser</a></li>
+        </ul>
+        <a class="btn btn-cta-primary" href="#" target="_blank">Sign Up</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ******TEAM****** -->
+  <section id="team" class="team section">
+    <div class="container">
+      <h2 class="title text-center">The Team</h2>
+      <div class="row">
+        <div class="author-message-left col-lg-6">
+          <div class="speech-bubble">
+            <img class="img-responsive" src="assets/images/raph.png" alt="" />
+            <h3 class="title">Raphael Weninger</h3>
+            <h4 class="sub-title">Founder</h4>
+            <p>3rd year Management</a>
+              <p>I am deeply involved in Warwick's technology and entrepreneurship ecosystem</p>
               <ul class="social-icons list-inline">
-                <li><a href="https://github.com/warwickcoding" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.facebook.com/warwickcoding" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/raphaelweninger" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li class="last"><a href="mailto: raphael@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
               </ul>
-            </div><!--//info-->
-        </div><!--//contact-inner-->
-      </div><!--//container-->
-    </section><!--//contact-->
+          </div>
+        </div>
+
+        <div class="author-message-right col-lg-6">
+          <div class="speech-bubble">
+            <img class="img-responsive" src="assets/images/zaid.png" alt="" />
+            <h3 class="title">Zaid Al Lahham</h3>
+            <h4 class="sub-title">Frontend and Ruby Course</h4>
+            <p>Class of 15' Engineering</p>
+            <p>Technology & gadgets are my weak spot</p>
+            <p>I got my real taste of software development at <a href="http://www.makersacademy.com/" target="_blank">Makers Academy</a></p>
+            <ul class="social-icons list-inline">
+              <li><a href="https://github.com/zlahham" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.twitter.com/zaidlahham" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/zaidlahham" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li class="last"><a href="mailto: zaid@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="author-message-right col-lg-6">
+          <div class="speech-bubble">
+            <img class="img-responsive" src="assets/images/wesley.png" alt="" />
+            <h3 class="title">Wesley Haigh</h3>
+            <h4 class="sub-title">Android Course</h4>
+            <p>3rd year Physics</p>
+            <p>Before university I worked for the software company ThankQ in Australia.</p>
+            <p>Built the geography based game <a href="https://play.google.com/store/apps/details?id=com.jamobiles.globetrotter" target="_blank">Globetrotter.</a> </p>
+            <ul class="social-icons list-inline">
+              <li><a href="https://github.com/WesleyHaigh" target="_blank"><i class="fa fa-github"></i></a></li>
+              <!-- <li><a href="https://www.twitter.com/zaidlahham" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
+              <li><a href="https://www.linkedin.com/in/wesley-haigh-20a10595" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li class="last"><a href="mailto: wesley@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="author-message-left col-lg-6">
+          <div class="speech-bubble">
+            <img class="img-responsive" src="assets/images/raph.png" alt="" />
+            <h3 class="title">Fadi Hakim</h3>
+            <h4 class="sub-title">Marketing</h4>
+            <p>Class of 15' Economics</p>
+            <p>If you like what I do, you can follow me </p>
+            <p>more info here</p>
+            <ul class="social-icons list-inline">
+              <li><a href="https://github.com/fadi-hakim" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.twitter.com/fadihakim93" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <!-- <li><a href="https://www.linkedin.com/in/zaidlahham" target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
+              <li class="last"><a href="mailto: fadi@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="join-us">
+        <h3>We are currently recruiting for next year! If you want to join us, please get in touch </h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ******CONTACT****** -->
+  <section id="contact" class="contact section has-pattern">
+    <div class="container">
+      <div class="contact-inner">
+        <h2 class="title  text-center">Contact</h2>
+        <div class="clearfix"></div>
+        <div class="info text-center">
+          <h4 class="sub-title">Get Connected</h4>
+          <ul class="social-icons list-inline">
+            <li><a href="https://github.com/warwickcoding" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.facebook.com/warwickcoding" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="last"><a href="mailto: raphael@warwickcoding.com"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-        <div class="container text-center">
-            <small class="copyright">Provided with <i class="fa fa-heart"></i> by warwickCoding for students.</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+  <!-- ******FOOTER****** -->
+  <footer class="footer row">
+    <div class="copyright col-md-6 col-sm-6 col-xs-12">
+      <p>Copyright <i class="fa fa-copyright"></i> warwickCoding 2015.</p>
+    </div>
+    <div class="madewith col-md-6 col-sm-6 col-xs-12">
+      <p>Built with <i class="fa fa-heart"></i> by warwickCoding for students.</p>
+    </div>
+  </footer>
 
-
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
