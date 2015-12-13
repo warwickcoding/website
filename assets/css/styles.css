@@ -1,12 +1,5 @@
-/*
- * Template Name: devAid - Responsive Website Template for developers
- * Version: 1.0
- * Author: Xiaoying Riley at 3rd Wave Media
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
-*/
-/* Default */
 /* ======= Base ======= */
+
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;
@@ -14,18 +7,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #17baef;
 }
-
 a {
   color: #17baef;
   -webkit-transition: all 0.4s ease-in-out;
@@ -37,8 +23,7 @@ a:hover {
   text-decoration: underline;
   color: #0e98c5;
 }
-.btn,
-a.btn {
+.btn, a.btn {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -47,38 +32,32 @@ a.btn {
   padding: 8px 16px;
   font-weight: bold;
 }
-.btn .fa,
-a.btn .fa {
+.btn .fa, a.btn .fa {
   margin-right: 5px;
 }
-.btn:focus,
-a.btn:focus {
+.btn:focus, a.btn:focus {
   color: #fff;
 }
-a.btn-cta-primary,
-.btn-cta-primary {
+a.btn-cta-primary, .btn-cta-primary {
   background: #074f66;
   border: 1px solid #074f66;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
-a.btn-cta-primary:hover,
-.btn-cta-primary:hover {
+a.btn-cta-primary:hover, .btn-cta-primary:hover {
   background: #053c4e;
   border: 1px solid #053c4e;
   color: #fff;
 }
-a.btn-cta-secondary,
-.btn-cta-secondary {
+a.btn-cta-secondary, .btn-cta-secondary {
   background: #BA1119;
   border: 1px solid #BA1119;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
-a.btn-cta-secondary:hover,
-.btn-cta-secondary:hover {
+a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   background: #980f16;
   border: 1px solid #980f16;
   color: #fff;
@@ -183,6 +162,7 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+
 /* ======= Promo Section ======= */
 
 .promo {
@@ -329,6 +309,7 @@ pre code {
 }
 
 /* ======= Team Section ======= */
+
 .team {
   padding: 80px 0;
   background: #f5f5f5;
@@ -338,11 +319,11 @@ pre code {
   margin-top: 0;
   margin-bottom: 60px;
 }
-.team .join-us h3{
+.team .join-us h3 {
   text-align: center;
   color: #074f66;
 }
-.team .author-message-right  {
+.team .author-message-right {
   position: relative;
   margin-bottom: 60px;
   text-align: center;
@@ -390,7 +371,8 @@ pre code {
 }
 
 /* ======= Second message ========== */
-.team .author-message-left  {
+
+.team .author-message-left {
   position: relative;
   margin-bottom: 60px;
   text-align: center;
@@ -438,6 +420,7 @@ pre code {
 }
 
 /* ======= Contact Section ======= */
+
 .contact {
   padding: 80px 0;
   background: #BA1119;
@@ -529,12 +512,12 @@ pre code {
   opacity: 0.8;
   text-align: center;
 }
-
 .footer .fa-heart {
   color: #fb866a;
 }
 
 /* Extra small devices (phones, less than 768px) */
+
 @media (max-width: 767px) {
   .header .main-nav button {
     margin-right: 0;
@@ -584,6 +567,3 @@ pre code {
     font-size: 18px;
   }
 }
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
