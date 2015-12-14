@@ -307,6 +307,9 @@ pre code {
   position: relative;
   top: 50px;
 }
+.courses .payment-info {
+  padding: 10px;
+}
 
 /* ======= Team Section ======= */
 
@@ -514,6 +517,9 @@ pre code {
 }
 .footer .fa-heart {
   color: #fb866a;
+}
+.footer .fa-bolt {
+  color: #fff500;
 }
 
 /* Extra small devices (phones, less than 768px) */
