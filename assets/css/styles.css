@@ -39,17 +39,18 @@ a:hover {
   color: #fff;
 }
 a.btn-cta-primary, .btn-cta-primary {
-  background: #074f66;
-  border: 1px solid #074f66;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
+  background: #074f66 !important;
+  border: 1px solid #074f66 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
 }
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
   background: #053c4e;
   border: 1px solid #053c4e;
   color: #fff;
 }
+
 a.btn-cta-secondary, .btn-cta-secondary {
   background: #BA1119;
   border: 1px solid #BA1119;
@@ -67,9 +68,6 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 .offset-header {
   padding-top: 90px;
-}
-pre code {
-  font-size: 16px;
 }
 
 /* ======= Header ======= */
@@ -256,12 +254,15 @@ pre code {
   background: #BA1119;
   color: #fff;
   min-height: 580px;
+  position: relative;
+  text-align: center !important;
 }
 .courses .row {
   min-height: 500px;
   width: 100%;
   margin: 0;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .courses #android-course {
   margin: 50px 0 0 0;
@@ -303,9 +304,12 @@ pre code {
   margin-top: 25px;
   color: #000000 !important;
 }
-.courses .btn {
-  position: relative;
-  top: 50px;
+.courses .typeform-share {
+  text-align: center !important;
+  margin-top: 25px !important;
+  position: absolute !important;
+  left: 35%;
+  right: 35%;
 }
 .courses .payment-info {
   padding: 10px;
