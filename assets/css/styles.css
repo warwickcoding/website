@@ -314,6 +314,9 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 .courses .payment-info {
   padding: 10px;
 }
+.courses .christmas-offer {
+  text-decoration: line-through;
+}
 
 /* ======= Team Section ======= */
 
