@@ -10,10 +10,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #17baef;
+  color: #000000;
 }
 a {
-  color: #17baef;
+  color: #000000;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -253,30 +253,30 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   /*padding: 80px 0;*/
   background: #BA1119;
   color: #fff;
-  min-height: 580px;
+  min-height: 520px;
   position: relative;
   text-align: center !important;
 }
 .courses .row {
-  min-height: 500px;
+  min-height: 450px;
   width: 100%;
   margin: 0;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   padding-top: 20px;
 }
 .courses #android-course {
-  margin: 50px 0 0 0;
-  min-height: 400px;
+  margin: 50px 0 50px 0;
+  min-height: 380px;
   position: relative;
 }
 .courses #frontend-course {
-  margin: 50px 0 0 0;
-  min-height: 400px;
+  margin: 50px 0 25px 0;
+  min-height: 380px;
   position: relative;
 }
 .courses #ruby-course {
-  margin: 50px 0 0 0;
-  min-height: 400px;
+  margin: 50px 0 25px 0;
+  min-height: 380px;
   position: relative;
 }
 .courses h1.title {
@@ -291,7 +291,8 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   margin-bottom: 15px;
 }
 .courses a {
-  color: #fff;
+  color: #000000;
+  cursor: pointer;
 }
 .courses a:hover {
   color: #042a36;
@@ -313,9 +314,25 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 .courses .payment-info {
   padding: 10px;
+  margin-top: 10px;
 }
 .courses .christmas-offer {
   text-decoration: line-through;
+}
+.courses .course-details {
+  display: none;
+  background-color: #a61219;
+  padding: 10px;
+  margin-bottom: 0;
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+}
+.courses .course-details p {
+  text-decoration: underline;
+}
+.courses .course-details h4 {
+  color: #191b1c;
+  text-transform: uppercase;
 }
 
 /* ======= Team Section ======= */
