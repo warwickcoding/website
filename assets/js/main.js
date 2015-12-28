@@ -33,4 +33,16 @@ jQuery(document).ready(function($) {
     event.preventDefault();
     $(this).closest('.container').find('.course-details').slideToggle(800)();
   });
+
+  var owl = $("#student-testimonials");
+
+  owl.owlCarousel({
+
+    items : 4,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,3],
+    navigation : true,
+    autoPlay: 3000
+
+  });
 });
