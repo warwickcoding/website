@@ -340,12 +340,8 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   padding: 40px 0 0 0;
   background: #f5f5f5;
 }
-.testimonials .title {
-  text-align: center;
-  color: #074f66;
-}
 .testimonials #student-testimonials .item{
-  background: #0c86ae;
+  background: #074f66;
   padding: 30px 0px;
   margin: 5px;
   color: #FFF;
