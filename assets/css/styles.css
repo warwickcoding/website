@@ -258,25 +258,29 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   text-align: center !important;
 }
 .courses .row {
-  min-height: 450px;
+  min-height: 400px;
   width: 100%;
   margin: 0;
-  /*padding-bottom: 20px;*/
   padding-top: 20px;
 }
 .courses #android-course {
   margin: 50px 0 50px 0;
-  min-height: 380px;
+  min-height: 340px;
   position: relative;
 }
 .courses #frontend-course {
   margin: 50px 0 25px 0;
-  min-height: 380px;
+  min-height: 340px;
   position: relative;
 }
 .courses #ruby-course {
   margin: 50px 0 25px 0;
-  min-height: 380px;
+  min-height: 340px;
+  position: relative;
+}
+.courses #excel-course {
+  margin: 50px 0 25px 0;
+  min-height: 340px;
   position: relative;
 }
 .courses h1.title {
