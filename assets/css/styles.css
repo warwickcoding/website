@@ -371,6 +371,7 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 .team .join-us h3 {
   text-align: center;
   color: #074f66;
+  font-size: 99%;
 }
 .team .author-message-right {
   position: relative;
