@@ -169,45 +169,40 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   padding-top: 110px;
   height: 33em;
 }
-.promo .title {
-  font-size: 3em;
-  color: #fff;
-  margin-top: 100px;
-  word-wrap: normal;
-}
-.promo .title .highlight {
-  color: #fff;
-}
-.promo .intro {
-  font-size: 24px;
-  /*max-width: 680px;*/
-  margin: 0 auto;
-  margin-bottom: 30px;
-  color: #fff;
+.promo h1 {
+  color: #FF0000;
+  font-size: 68px;
+  margin-top: 50px;
 }
 .promo .btns .btn {
   margin-right: 15px;
   font-size: 18px;
   padding: 8px 30px;
 }
-.promo .meta {
-  margin-top: 120px;
-  margin-bottom: 30px;
-  color: #0a7396;
-}
-.promo .meta li {
-  margin-right: 15px;
-}
-.promo .meta a {
-  color: #fff;
-}
-.promo .meta a:hover {
-  color: #BA1119;
-}
 .promo img {
   margin-top: 100px;
   margin-bottom: 40px;
 }
+
+/* ======= NEWS SECTION ======= */
+.news {
+  margin: 0;
+  padding: 20px;
+}
+.news .news-post {
+  border: 2px solid #757575;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.news h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.news .news-date {
+  color: #C3C3C3;
+}
+
 
 /* ======= ABOUT SECTION ======= */
 
