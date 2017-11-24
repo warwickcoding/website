@@ -1,5 +1,5 @@
-![](http://goldsmiths.tech/assets/img/logo-hacksmiths.svg)
-# Hacksmiths Website
+![](https://warwick.tech/img/logos/warwicktech.png)
+# Warwick Coding Website
 
 ## First time setup
 
@@ -15,8 +15,7 @@ Every time you want to run the local server which is reactive to changes, just r
 
 
 * `_data/`
-    * `events.yml` -- data for the homepage
-    * `hardware.yml` -- data for the hardware lab page
+    * `courses.yml` -- data for the courses
     * `team.yml` -- data for the team page
 * `includes/` -- this folder contains parts of site which are pulled into templates
 * `layouts/`
@@ -27,8 +26,7 @@ Every time you want to run the local server which is reactive to changes, just r
     * `less/` -- contains our stylesheets which are compiled on the client
         * `projects.less` -- this file contains project-specific color styling
     * `img/`
-        * `hardware/` -- contains photos for hardware lab
-        * `partners/` -- contains photos for sponsor section of project layout
+        * `partners/` -- contains photos for sponsor events section of project layout
         * `team/` -- contains photos for team page
         * `projects/:name` -- contains assets for each project
             * `hero.jpg` -- hero image for project

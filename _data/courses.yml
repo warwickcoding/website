@@ -1,17 +1,17 @@
-- name: Intro to Python 2018
+- name: Intro to Python - 2018
   line: Learn the basics of the Python Programming Language. 
   date: Jan 2018
   url: /doc
-  past: true
+  past: false
 
-- name: Intro to Web Development 2018
+- name: Intro to Web Development - 2018
   line: Learn the basics of building your own website with HTML and CSS.
   date: Jan 2018
   url: /doc
-  past: true
+  past: false
 
-- name: Version Control & Git 2018
-  line: Learn how to manage working on code as a team and how to version control your projects.
+- name: Version Control & Git - 2018
+  line: Learn how to manage projects as a team and how to version control your code.
   date: Jan 2018
   url: /doc
-  past: true
+  past: false
