@@ -12,16 +12,16 @@ one_line: Hacksmiths is the award-winning student-run tech society at Goldsmiths
             <div class="col-sm-6 col-md-5">
                 <div class="switchable__text">
                     <img src="/assets/img/logo-hacksmiths.svg" alt="Hacksmiths Logo">
-                    <p class="lead"> Hacksmiths is the student-run tech society at Goldsmiths. Our mission is to provide an opportunity for people in all departments and from all backgrounds the chance to learn about, and play with, technology. </p>
-                    <a class="btn btn--sm btn--primary type--uppercase" href="/join"> <span class="btn__text">Become a member - join for free</span> </a>
+                    <p class="lead"> Warwick Coding is a student led coding course at the University of Warwick. Our mission is to provide the opportunity, for people in all departments and backgrounds, the chance to learn how to build, create and imagine through the world of technology. </p>
+                    <a class="btn btn--sm btn--primary type--uppercase" href="/join"> <span class="btn__text">Sign Up - join for free</span> </a>
                     <br>
                     <a href="//www.youtube.com/watch?v=pkHNc2wiNxI" class="btn btn--sm type--uppercase" data-lity>
                         <i class="socicon icon socicon-youtube"></i>
-                        <span>What we do</span>
+                        <span>Courses</span>
                     </a>
                     <a href="https://m.me/smithsbot" class="btn btn--sm type--uppercase" target="_blank">
                         <i class="socicon icon socicon-messenger"></i>
-                        <span>Get updates</span>
+                        <span>Get Updates</span>
                     </a>
                 </div>
             </div>
@@ -29,26 +29,26 @@ one_line: Hacksmiths is the award-winning student-run tech society at Goldsmiths
                 <div class="boxed boxed--lg boxed--border">
                     <div class="feature feature-2">
                         <div class="feature__body">
-                            <h5>Weekly Code &amp; Craft</h5>
+                            <h5>Coding Courses &amp; Classes</h5>
                             <p>A friendly and supportive environment to play around with new ideas and get support. Suitable for all skill levels.<br></p>
                         </div>
                     </div>
                     <div class="feature feature-2">
                         <div class="feature__body">
-                            <h5>Monthly talks &amp; workshops</h5>
+                            <h5>Guest Speakers &amp; Workshops</h5>
                             <p> A range of interesting content from students, staff and industry professionals. Suitable for complete beginners.</p>
                         </div>
                     </div>
                     <div class="feature feature-2">
                         <div class="feature__body">
-                            <h5>Hackathons &amp; jams</h5>
+                            <h5>Hackathons &amp; Challenges</h5>
                             <p>Invention marathons which bring together people with varying skills to build awesome projects. Suitable for all skill levels.</p>
                         </div>
                     </div>
                     <div class="feature feature-2">
                         <div class="feature__body">
-                            <h5>Lovelace</h5>
-                            <p>A social event series for women and non binary people interested in technology at goldsmiths. Suitable for all skill levels.</p>
+                            <h5>Not Convinced?</h5>
+                            <p>Come along to one of our sessions! All are hosted free of cost and all of our course content is online to follow at your own pace.</p> 
                         </div>
                     </div>
                 </div>
@@ -60,16 +60,16 @@ one_line: Hacksmiths is the award-winning student-run tech society at Goldsmiths
 <section class="events">
     <div class="container">
         <div class="row">
-            <h2>Our events</h2>
-            {% for event in site.data.events %}
+            <h2>Our Courses</h2>
+            {% for course in site.data.courses %}
                 <div class="col-sm-4 event-single">
                     <a {% unless event.url == "undefined" %} href="{{event.url}}" {% endunless %}>
                         <div class="feature feature-1">
                             <div class="feature__body boxed boxed--border">
-                                {% if event.past %}<span>Past</span>{% endif %}
-                                <h5>{{event.name}}</h5>
-                                <p>{{event.line}}</p>
-                                <small>{{event.date}}</small>
+                                {% if course.past %}<span>Past</span>{% endif %}
+                                <h5>{{course.name}}</h5>
+                                <p>{{course.line}}</p>
+                                <small>{{course.date}}</small>
                             </div>
                         </div>
                     </a>

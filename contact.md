@@ -10,32 +10,32 @@ one_line: Hacksmiths is the award-winning student-run tech society at Goldsmiths
     <div class="row">
       <div class="col-md-4">
         <div class="text-block">
-          <h4>Contact Hacksmiths<br></h4>
+          <h4>Contact WarwickTECH<br></h4>
         </div>
       </div>
       <div class="col-md-4">
         <div class="text-block">
           <h5> Address</h5>
-          <p>Goldsmiths Students Union<br>Dixon Road<br>London<br>SE14 6NW<br></p>
+          <p>University of Warwick<br>Gibbet Hill Road<br>Coventry<br>CV47 ES<br></p>
         </div>
         <div class="text-block">
           <h5>Facebook&nbsp;</h5>
-          <p>Page: <a href="https://facebook.com/hacksmiths">facebook.com/hacksmiths</a><br>
-          Group: <a href="https://facebook.com/groups/hacksmiths">facebook.com/groups/hacksmiths</a></p>
+          <p>Page: <a href="https://facebook.com/hacksmiths">facebook.com/warwickcoding</a><br>
+          Slack: <a href="https://facebook.com/groups/hacksmiths">warwickcoding.slack.com</a></p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="text-block">
           <h5>Get updates via our Messenger Bot</h5>
-          <p><a href="https://m.me/smithsbot">m.me/smithsbot</a></p>
+          <p><a href="https://m.me/smithsbot">m.me/warwickcoding</a></p>
         </div>
         <div class="text-block">
           <h5>Email address</h5>
-          <p><a href="mailto:hacksmiths@gold.ac.uk">hacksmiths@gold.ac.uk</a></p>
+          <p><a href="mailto:hacksmiths@gold.ac.uk">info@warwick.tech</a></p>
         </div>
         <div class="text-block">
           <h5>Twitter</h5>
-          <p><a href="https://twitter.com/hacksmiths">twitter.com/hacksmiths</a></p>
+          <p><a href="https://twitter.com/hacksmiths">twitter.com/warwickcoding</a></p>
         </div>
       </div>
     </div>

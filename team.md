@@ -9,8 +9,8 @@ one_line: Hacksmiths is the award-winning student-run tech society at Goldsmiths
 
 <section class="text-center team">
   <div class="container">
-    <h1>Our team</h1>
-    <h2>We're super friendly and happy to answer any questions you may have about Hacksmiths or our projects.</h2>
+    <h1>Our Team</h1>
+    <h2>Here's the team that makes it all possible!</h2>
     <div class="row">
       {% for person in site.data.team %}
         <div class="col-sm-3">
@@ -27,7 +27,7 @@ one_line: Hacksmiths is the award-winning student-run tech society at Goldsmiths
         </div>
       {% endfor %}
     </div>
-    <p>Interested in being part of our team? We recruit new committee members in January.</p>
+    <p>Interested in teaching? We're actively recruiting teachers for courses.</p>
   </div>
 </section>
 
